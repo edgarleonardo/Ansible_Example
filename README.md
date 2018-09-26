@@ -22,9 +22,12 @@ Using roles we are able to organize the tasks using predifined directory name al
 
 For example, imagin we need to prepare a server to work as builder of our applications:
 
-**Builder**
-- name: install jdk
-- name: install git
+**Roles**
+- **Builder**
+- -- name: install jdk
+- -- name: install git
+
+The file structure will end up like I show above.
 
 ## Which roles we are going to manage?
 
